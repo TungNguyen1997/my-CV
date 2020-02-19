@@ -168,6 +168,13 @@ html {
   margin-bottom: 4rem;
   background-color: #fd57bf;
   transform: rotate(45deg);
+  transition: 0.5s;
+}
+.service__item:hover .service__icon{
+  transform: rotate(225deg);
+}
+.portfolio__content p{
+  margin-bottom: 5rem;
 }
 .service__icon i{
   color: #ffe838;
