@@ -8,5 +8,9 @@ $(document).ready(function () {
         $('.nav').removeClass('open');
         $('.hamburger').removeClass('none');
     });
-    
+    AOS.init({
+        easing: 'ease',
+        duration: 1800,
+        once:true
+    });
 });   

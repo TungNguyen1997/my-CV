@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="./css/setting.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <link href="https://fonts.googleapis.com/css?family=Condiment|Roboto|Roboto+Mono" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
     <title>My Cv</title>
   </head>
   <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
@@ -36,10 +37,10 @@
     </header>
     <section class="about" id="about">
       <div class="container about__main">
-        <div class="about__img">
+        <div class="about__img" data-aos="fade-right" data-aos-delay="300">
           <img src="images/profile.jpeg" > 
         </div>
-        <div class="about__content">
+        <div class="about__content" data-aos="fade-left" data-aos-delay="300">
           <div class="about__title">
             <h2>About</h2>
             <span>MYSELF</span>
@@ -67,7 +68,7 @@
           <p>what i can do for you</p>
         </div>
         <ul class="service__list">
-          <li class="service__item">
+          <li class="service__item" data-aos="flip-left">
             <div class="service__icon">
               <i class="fas fa-layer-group"></i>
             </div>
@@ -75,14 +76,14 @@
             <p>
               Graduated from Ton Duc University(10/2019) with a major in Software Engineering</p>
           </li>
-          <li class="service__item">
+          <li class="service__item" data-aos="flip-left">
             <div class="service__icon">
               <i class="fas fa-chart-bar"></i>
             </div>
             <h2>My Strength</h2>
             <p>I can work independently or in groups, have fun, be sociable, like to learn new things and be disciplined at work</p>
           </li>
-          <li class="service__item">
+          <li class="service__item" data-aos="flip-left">
             <div class="service__icon">
               <i class="fas fa-code"></i>
             </div>
@@ -101,10 +102,10 @@
         </div>
         <ul class="portfolio__list">
           <li class="portfolio__item">
-            <div class="portfolio__img">
+            <div class="portfolio__img" data-aos="fade-right" >
               <img src="images/pj1.PNG">
             </div>
-            <div class="portfolio__content">
+            <div class="portfolio__content" data-aos="fade-left" >
               
               <h2>Leo Spa</h2>
               <p>Design website interface based on psd file (PSD TO HTML/CSS) </p>
@@ -112,11 +113,11 @@
               <a href="https://tungnguyen-leospa.netlify.com">View Details</a>
             </div>
           </li>
-          <li class="portfolio__item">
-            <div class="portfolio__img">
+          <li class="portfolio__item" >
+            <div class="portfolio__img" data-aos="fade-right">
               <img src="images/pj2.PNG">
             </div>
-            <div class="portfolio__content">
+            <div class="portfolio__content" data-aos="fade-left">
               <span></span>
               <h2>E-commerce Website</h2>
               <p>Front-end programming for the website with functions like login, register, view products, check out, add to cart, and features like an e-commerce website</p>
@@ -124,11 +125,11 @@
               <a href="https://tung-react-shopping.netlify.com/">View Details</a>
             </div>
           </li>
-          <li class="portfolio__item">
+          <li class="portfolio__item" data-aos="fade-right">
             <div class="portfolio__img">
               <img src="images/pj3.PNG">
             </div>
-            <div class="portfolio__content">
+            <div class="portfolio__content" data-aos="fade-left" data-aos-delay="300">
               <span></span>
               <h2>Blog Website</h2>
               <p>Design my own blog with the main purpose of getting a job and improving my skills</p>
@@ -139,7 +140,8 @@
         </ul>
       </div>
     </section>
-    <section class="experience" id="experience">
+    <section class="experience" id="experience" data-aos="fade-up"
+    data-aos-anchor-placement="center-bottom">
       <div class="container">
         <div class="expericence__title">
           <h1>Work expericence</h1>
@@ -161,6 +163,7 @@
         </ul>
       </div>
     </section>
+    
     <footer class="footer">
 
       <h2>© 2020 Tung Nguyen</i><h2>
